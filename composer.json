@@ -46,7 +46,8 @@
     "roots/wp-password-bcrypt": "1.0.0"
   },
   "require-dev": {
-    "squizlabs/php_codesniffer": "^2.5.1"
+    "phpunit/phpunit": "~5.5",
+    "humanmade/coding-standards": "^0.2.1"
   },
   "extra": {
     "installer-paths": {
