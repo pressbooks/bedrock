@@ -509,16 +509,16 @@
         },
         {
             "name": "tillkruss/redis-cache",
-            "version": "1.5.1",
+            "version": "1.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tillkruss/redis-cache.git",
-                "reference": "b71e5d87f62c302f5030114deeaab2835fe5fd37"
+                "reference": "51d997e55dbb1d80b33825575b2d8d07cd1e6378"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tillkruss/redis-cache/zipball/b71e5d87f62c302f5030114deeaab2835fe5fd37",
-                "reference": "b71e5d87f62c302f5030114deeaab2835fe5fd37",
+                "url": "https://api.github.com/repos/tillkruss/redis-cache/zipball/51d997e55dbb1d80b33825575b2d8d07cd1e6378",
+                "reference": "51d997e55dbb1d80b33825575b2d8d07cd1e6378",
                 "shasum": ""
             },
             "require": {
@@ -540,7 +540,7 @@
             ],
             "description": "A persistent object cache backend for WordPress powered by Redis. Supports Predis, PhpRedis, HHVM, replication and clustering.",
             "homepage": "https://github.com/tillkruss/redis-cache",
-            "time": "2019-11-15T04:14:05+00:00"
+            "time": "2019-11-17T03:33:48+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
