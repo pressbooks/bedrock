@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "67e40d3c2d5eb5e963da8522857cf331",
+    "content-hash": "4cf536711729d11a95cf3c498bddfb9d",
     "packages": [
         {
             "name": "composer/installers",
@@ -277,15 +277,15 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "5.4.1",
+            "version": "5.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "5.4.1"
+                "reference": "5.4.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.4.1"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.4.2"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -309,7 +309,7 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2020-04-29T18:50:02+00:00"
+            "time": "2020-06-10T21:43:59+00:00"
         },
         {
             "name": "roots/wordpress-core-installer",
@@ -557,6 +557,7 @@
             ],
             "description": "A persistent object cache backend for WordPress powered by Redis. Supports Predis, PhpRedis, HHVM, replication and clustering.",
             "homepage": "https://github.com/tillkruss/redis-cache",
+            "abandoned": "rhubarbgroup/redis-cache",
             "time": "2020-05-31T16:33:33+00:00"
         },
         {
