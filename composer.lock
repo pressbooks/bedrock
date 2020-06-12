@@ -135,16 +135,16 @@
         },
         {
             "name": "oscarotero/env",
-            "version": "v2.0.0",
+            "version": "v2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oscarotero/env.git",
-                "reference": "af3fe9677f4609f387abc53efb16a9a01594db8e"
+                "reference": "0da22cadc6924155fa9bbea2cdda2e84ab7cbdd3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oscarotero/env/zipball/af3fe9677f4609f387abc53efb16a9a01594db8e",
-                "reference": "af3fe9677f4609f387abc53efb16a9a01594db8e",
+                "url": "https://api.github.com/repos/oscarotero/env/zipball/0da22cadc6924155fa9bbea2cdda2e84ab7cbdd3",
+                "reference": "0da22cadc6924155fa9bbea2cdda2e84ab7cbdd3",
                 "shasum": ""
             },
             "require": {
@@ -181,7 +181,7 @@
             "keywords": [
                 "env"
             ],
-            "time": "2020-06-03T21:16:26+00:00"
+            "time": "2020-06-11T10:59:27+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -557,6 +557,7 @@
             ],
             "description": "A persistent object cache backend for WordPress powered by Redis. Supports Predis, PhpRedis, HHVM, replication and clustering.",
             "homepage": "https://github.com/tillkruss/redis-cache",
+            "abandoned": "rhubarbgroup/redis-cache",
             "time": "2020-05-31T16:33:33+00:00"
         },
         {
