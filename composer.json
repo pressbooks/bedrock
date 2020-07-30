@@ -43,7 +43,7 @@
     "roots/wordpress": "5.4.1",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.0.0",
-    "tillkruss/redis-cache": "^1.4"
+    "tillkruss/redis-cache": "^2.0"
   },
   "require-dev": {
     "phpunit/phpunit": "^7",
