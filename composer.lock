@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "67e40d3c2d5eb5e963da8522857cf331",
+    "content-hash": "e9708f1359f457200fa24cc214bd24f6",
     "packages": [
         {
             "name": "composer/installers",
@@ -130,6 +130,16 @@
                 "yawik",
                 "zend",
                 "zikula"
+            ],
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-04-07T06:57:05+00:00"
         },
@@ -277,15 +287,15 @@
         },
         {
             "name": "roots/wordpress",
-            "version": "5.4.1",
+            "version": "5.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "5.4.1"
+                "reference": "5.5.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.4.1"
+                "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.5.1"
             },
             "require": {
                 "php": ">=5.3.2",
@@ -309,7 +319,17 @@
                 "cms",
                 "wordpress"
             ],
-            "time": "2020-04-29T18:50:02+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/roots",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/rootsdev",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2020-09-01T18:56:09+00:00"
         },
         {
             "name": "roots/wordpress-core-installer",
@@ -522,6 +542,20 @@
                 "polyfill",
                 "portable"
             ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-05-12T16:14:59+00:00"
         },
         {
@@ -557,6 +591,17 @@
             ],
             "description": "A persistent object cache backend for WordPress powered by Redis. Supports Predis, PhpRedis, HHVM, replication and clustering.",
             "homepage": "https://github.com/tillkruss/redis-cache",
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/tillkruss",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/tillkruss",
+                    "type": "github"
+                }
+            ],
+            "abandoned": "rhubarbgroup/redis-cache",
             "time": "2020-05-31T16:33:33+00:00"
         },
         {
@@ -620,6 +665,16 @@
                 "dotenv",
                 "env",
                 "environment"
+            ],
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/vlucas/phpdotenv",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-05-23T09:43:32+00:00"
         }
@@ -1370,6 +1425,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2019-07-25T05:29:42+00:00"
         },
         {
@@ -2644,5 +2700,6 @@
     "platform-dev": [],
     "platform-overrides": {
         "php": "7.1.30"
-    }
+    },
+    "plugin-api-version": "1.1.0"
 }
