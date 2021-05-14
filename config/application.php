@@ -62,7 +62,7 @@ if( // Custom header.
     || ( isset( $_SERVER['HTTP_USER_AGENT'] ) && $_SERVER['HTTP_USER_AGENT'] === 'wp-browser' )
     // The env var set by the WPClIr or WordPress modules.
     || getenv( 'WPBROWSER_HOST_REQUEST' ) ) {
-    Config::define('DB_NAME', 'tests');
+    Config::define('DB_NAME', env('TEST_DB_NAME'));
 } else {
     Config::define('DB_NAME', env('DB_NAME'));
 }
