@@ -1,1 +1,1 @@
-## Notice: This repo is no longer being maintained and has been replaced by [Pressbooks OSS Bedrock](https://github.com/pressbooks/pressbooksoss-bedrock)
+## Notice: This repo is no longer being maintained. It has been replaced by [Pressbooks OSS Bedrock](https://github.com/pressbooks/pressbooksoss-bedrock)
